@@ -1,0 +1,25 @@
+I launch EC2 instance in aws.
+
+launch instance---> connect with Linux through mobaxterm software and connect ssh with pem key
+
+then, i used sudo -i --> to convert normal to admin
+
+install the webhosting software ---> yum install httpd
+
+default directory to create the website - #cd /var/www/html
+
+create the web site
+
+#vi index.html
+
+Refresh the httpd for new change
+
+wget Link_________________ - download the free template from internet
+
+mv ________ ___________.zip Rename to zip format
+
+List it - ls
+unzip it - unzip ____________.zip
+cd _____________
+copy the folder - cp -r * /var/www/html
+refresh it - systemctl restart httpd
